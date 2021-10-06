@@ -1,7 +1,6 @@
 import * as React from 'react'
 // Step 2: Define your component
 const IndexPage = () => {
-<<<<<<< HEAD
     return (
         <main>
             <title>Home Page</title>
