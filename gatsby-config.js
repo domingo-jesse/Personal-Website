@@ -3,5 +3,7 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "Jesse Domingo Website",
   },
-  plugins: [],
+    plugins: [
+        "gatsby-plugin-image",
+        "gatsby-plugin-sharp",],
 };
