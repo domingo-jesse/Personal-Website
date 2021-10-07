@@ -20,3 +20,9 @@
 .nav-link-text {
     color: black;
 }
+.site-title {
+    font-size: 3rem;
+    color: grey;
+    font-weight: 700;
+    margin: 3rem 0;
+}
