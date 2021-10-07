@@ -1,3 +1,5 @@
+import { graphql } from 'gatsby'
+
 const Layout = ({ children }) => (
     <StaticQuery
         query={graphql`
