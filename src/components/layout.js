@@ -5,10 +5,10 @@ const Layout = ({ children }) => (
         site {
           siteMetadata {
             title
-+            menuLinks {
-+              name
-+              link
-+            }
+             menuLinks {
+               name
+               link
+             }
           }
         }
       }
@@ -23,8 +23,7 @@ const Layout = ({ children }) => (
                     ]}
                 >
                 </Helmet>
--      <Header siteTitle={data.site.siteMetadata.title} />
-+      <Header menuLinks={data.site.siteMetadata.menuLinks} siteTitle={data.site.siteMetadata.title} />
+       <Header menuLinks={data.site.siteMetadata.menuLinks} siteTitle={data.site.siteMetadata.title} />
                 <div
                     style={{
                         margin: '0 auto',
