@@ -21,6 +21,7 @@ const Layout = ({ pageTitle, children }) => {
   `)
     return (
         <div className={container}>
+            <style>{'body { background-color: #c1d6c5; }'}</style>
             <title>{pageTitle} | {data.site.siteMetadata.title}</title>
             <header className={siteTitle}>{data.site.siteMetadata.title}</header>
             <nav>
