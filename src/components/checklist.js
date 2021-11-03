@@ -4,7 +4,7 @@ const CheckList  = ({ pageTitle, children }) => {
         return (
             <div> 
                 
-                    <style>{'body { background-color: red; }'}</style>
+                    <style>{'body { background-color: white; }'}</style>
                 
                 <h1>Hello</h1> 
 

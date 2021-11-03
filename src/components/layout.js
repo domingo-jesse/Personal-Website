@@ -20,11 +20,11 @@ const Layout = ({ pageTitle, children }) => {
     }
   `)
     return (
-        <div className={container}>
-            <style>{'body { background-color: #c1d6c5; }'}</style>
+        <div  className={container}>
+            <style>{'body { background-color: #c1d6c5;'}</style>
             <title>{pageTitle} | {data.site.siteMetadata.title}</title>
             <header className={siteTitle}>{data.site.siteMetadata.title}</header>
-            <nav>
+            <nav class="center">
                 <ul className={navLinks}>
                     <li className={navLinkItem}>
                         <Link to="/" className={navLinkText}>
@@ -34,7 +34,13 @@ const Layout = ({ pageTitle, children }) => {
                     <li className={navLinkItem}>
                         <Link to="/about" className={navLinkText}>
                             About
-            </Link>                   
+            </Link>           
+                    </li>
+
+                    <li className={navLinkItem}>
+                        <Link to="/projects" className={navLinkText}>
+                            Projects
+            </Link>
                     </li>
                 </ul>
             </nav>

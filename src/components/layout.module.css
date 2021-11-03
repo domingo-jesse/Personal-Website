@@ -11,6 +11,8 @@
     display: flex;
     list-style: none;
     padding-left: 0;
+    position: relative;
+    left: 37%;
 }
 
 .nav-link-item {
@@ -25,4 +27,29 @@
     color: darkblue;
     font-weight: 700;
     margin: 3rem 0;
+    position: relative;
+    left: 30%;
+}
+
+.rcorners {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    grid-gap: 10px
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
 }

@@ -9,7 +9,7 @@ import {
 const IndexPage = () => {
     return (
         <Layout pageTitle="Home Page">
-            <p>I'm making this by following the Gatsby Tutorial.</p>
+            <p>Hello World</p>
             
                 <StaticImage className={rcorners}
                 alt="Cube logo"
