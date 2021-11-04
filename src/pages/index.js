@@ -15,7 +15,6 @@ const IndexPage = () => {
                 alt="Cube logo"
                 src="../images/frog.jpg"
             />
-            <SocialIcon url="https://www.linkedin.com/in/jesse-domingo/" />
             
         </Layout>
     )

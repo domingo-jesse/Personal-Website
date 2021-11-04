@@ -11,8 +11,6 @@
     display: flex;
     list-style: none;
     padding-left: 0;
-    position: relative;
-    left: 37%;
 }
 
 .nav-link-item {
@@ -27,16 +25,14 @@
     color: darkblue;
     font-weight: 700;
     margin: 3rem 0;
-    position: relative;
-    left: 30%;
 }
 
 .rcorners {
     border-radius: 25px;
     border: 2px solid #73AD21;
     padding: 20px;
-    width: 200px;
-    height: 150px;
+    width: 100px;
+    height: 75px;
 }
 
 .grid-container {
@@ -47,9 +43,46 @@
 }
 
 .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-size: 30px;
     text-align: center;
+    width: 150px;
+    height: 100px;
+    border-radius: 25px;
+    vertical-align: middle;
+}
+
+.background {
+    background-image: url("../images/frog.jpg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    margin: 30px 220px;
+}
+
+aside {
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border: 1px solid #111;
+}
+
+aside ul {
+    position: absolute;
+    height: 200px;
+    top: 50%;
+    margin: -100px 0;
+    }
+
+ socialLinks{
+    position: absolute;
+    bottom: 0;
 }
