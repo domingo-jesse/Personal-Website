@@ -8,7 +8,8 @@ const Projects = () => {
     
         <Layout pageTitle="Projects">
                 <p>Here I will put the projects that I have made </p>
-                <Grid />
+            <Grid />
+
             
             </Layout>
 
